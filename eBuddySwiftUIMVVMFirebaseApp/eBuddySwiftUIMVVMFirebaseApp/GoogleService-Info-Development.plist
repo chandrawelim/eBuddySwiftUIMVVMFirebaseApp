@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyCiHgbcoVxG5ujUTR1ZK1Q_fapWL2eEj_0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>913802041297</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.chandrawelim.eBuddySwiftUIMVVMFirebaseApp.dev</string>
+	<key>PROJECT_ID</key>
+	<string>ebuddyswiftuimvvmfirebase-dev</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ebuddyswiftuimvvmfirebase-dev.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:913802041297:ios:01269bc404f7a25820b2f0</string>
+</dict>
+</plist>

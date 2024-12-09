@@ -1,0 +1,13 @@
+//
+//  eBuddySwiftUIMVVMFirebaseApp-development.xcconfig
+//  eBuddySwiftUIMVVMFirebaseApp
+//
+//  Created by Chandra Welim on 09/12/24.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+APP_NAME = eBuddySwiftUIMVVMFirebaseApp-Dev
+BUNDLE_ID = com.chandrawelim.eBuddySwiftUIMVVMFirebaseApp.dev
+GOOGLE_CLIENT_ID = 1:913802041297:ios:01269bc404f7a25820b2f0.apps.googleusercontent.com
