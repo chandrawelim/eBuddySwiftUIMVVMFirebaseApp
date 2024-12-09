@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		853E2F362D07316900BE7497 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 853E2F1D2D07316700BE7497 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 853E2F242D07316700BE7497;
+			remoteInfo = eBuddySwiftUIMVVMFirebaseApp;
+		};
+		853E2F402D07316900BE7497 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 853E2F1D2D07316700BE7497 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 853E2F242D07316700BE7497;
+			remoteInfo = eBuddySwiftUIMVVMFirebaseApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		853E2F252D07316700BE7497 /* eBuddySwiftUIMVVMFirebaseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eBuddySwiftUIMVVMFirebaseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		853E2F352D07316900BE7497 /* eBuddySwiftUIMVVMFirebaseAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eBuddySwiftUIMVVMFirebaseAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		853E2F3F2D07316900BE7497 /* eBuddySwiftUIMVVMFirebaseAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eBuddySwiftUIMVVMFirebaseAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		853E2F272D07316700BE7497 /* eBuddySwiftUIMVVMFirebaseApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = eBuddySwiftUIMVVMFirebaseApp;
+			sourceTree = "<group>";
+		};
+		853E2F382D07316900BE7497 /* eBuddySwiftUIMVVMFirebaseAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = eBuddySwiftUIMVVMFirebaseAppTests;
+			sourceTree = "<group>";
+		};
+		853E2F422D07316900BE7497 /* eBuddySwiftUIMVVMFirebaseAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = eBuddySwiftUIMVVMFirebaseAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		853E2F222D07316700BE7497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853E2F322D07316900BE7497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853E2F3C2D07316900BE7497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		853E2F1C2D07316700BE7497 = {
+			isa = PBXGroup;
+			children = (
+				853E2F272D07316700BE7497 /* eBuddySwiftUIMVVMFirebaseApp */,
+				853E2F382D07316900BE7497 /* eBuddySwiftUIMVVMFirebaseAppTests */,
+				853E2F422D07316900BE7497 /* eBuddySwiftUIMVVMFirebaseAppUITests */,
+				853E2F262D07316700BE7497 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		853E2F262D07316700BE7497 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				853E2F252D07316700BE7497 /* eBuddySwiftUIMVVMFirebaseApp.app */,
+				853E2F352D07316900BE7497 /* eBuddySwiftUIMVVMFirebaseAppTests.xctest */,
+				853E2F3F2D07316900BE7497 /* eBuddySwiftUIMVVMFirebaseAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		853E2F242D07316700BE7497 /* eBuddySwiftUIMVVMFirebaseApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 853E2F492D07316900BE7497 /* Build configuration list for PBXNativeTarget "eBuddySwiftUIMVVMFirebaseApp" */;
+			buildPhases = (
+				853E2F212D07316700BE7497 /* Sources */,
+				853E2F222D07316700BE7497 /* Frameworks */,
+				853E2F232D07316700BE7497 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				853E2F272D07316700BE7497 /* eBuddySwiftUIMVVMFirebaseApp */,
+			);
+			name = eBuddySwiftUIMVVMFirebaseApp;
+			packageProductDependencies = (
+			);
+			productName = eBuddySwiftUIMVVMFirebaseApp;
+			productReference = 853E2F252D07316700BE7497 /* eBuddySwiftUIMVVMFirebaseApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		853E2F342D07316900BE7497 /* eBuddySwiftUIMVVMFirebaseAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 853E2F4C2D07316900BE7497 /* Build configuration list for PBXNativeTarget "eBuddySwiftUIMVVMFirebaseAppTests" */;
+			buildPhases = (
+				853E2F312D07316900BE7497 /* Sources */,
+				853E2F322D07316900BE7497 /* Frameworks */,
+				853E2F332D07316900BE7497 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				853E2F372D07316900BE7497 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				853E2F382D07316900BE7497 /* eBuddySwiftUIMVVMFirebaseAppTests */,
+			);
+			name = eBuddySwiftUIMVVMFirebaseAppTests;
+			packageProductDependencies = (
+			);
+			productName = eBuddySwiftUIMVVMFirebaseAppTests;
+			productReference = 853E2F352D07316900BE7497 /* eBuddySwiftUIMVVMFirebaseAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		853E2F3E2D07316900BE7497 /* eBuddySwiftUIMVVMFirebaseAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 853E2F4F2D07316900BE7497 /* Build configuration list for PBXNativeTarget "eBuddySwiftUIMVVMFirebaseAppUITests" */;
+			buildPhases = (
+				853E2F3B2D07316900BE7497 /* Sources */,
+				853E2F3C2D07316900BE7497 /* Frameworks */,
+				853E2F3D2D07316900BE7497 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				853E2F412D07316900BE7497 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				853E2F422D07316900BE7497 /* eBuddySwiftUIMVVMFirebaseAppUITests */,
+			);
+			name = eBuddySwiftUIMVVMFirebaseAppUITests;
+			packageProductDependencies = (
+			);
+			productName = eBuddySwiftUIMVVMFirebaseAppUITests;
+			productReference = 853E2F3F2D07316900BE7497 /* eBuddySwiftUIMVVMFirebaseAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		853E2F1D2D07316700BE7497 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					853E2F242D07316700BE7497 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					853E2F342D07316900BE7497 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 853E2F242D07316700BE7497;
+					};
+					853E2F3E2D07316900BE7497 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 853E2F242D07316700BE7497;
+					};
+				};
+			};
+			buildConfigurationList = 853E2F202D07316700BE7497 /* Build configuration list for PBXProject "eBuddySwiftUIMVVMFirebaseApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 853E2F1C2D07316700BE7497;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 853E2F262D07316700BE7497 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				853E2F242D07316700BE7497 /* eBuddySwiftUIMVVMFirebaseApp */,
+				853E2F342D07316900BE7497 /* eBuddySwiftUIMVVMFirebaseAppTests */,
+				853E2F3E2D07316900BE7497 /* eBuddySwiftUIMVVMFirebaseAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		853E2F232D07316700BE7497 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853E2F332D07316900BE7497 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853E2F3D2D07316900BE7497 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		853E2F212D07316700BE7497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853E2F312D07316900BE7497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853E2F3B2D07316900BE7497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		853E2F372D07316900BE7497 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 853E2F242D07316700BE7497 /* eBuddySwiftUIMVVMFirebaseApp */;
+			targetProxy = 853E2F362D07316900BE7497 /* PBXContainerItemProxy */;
+		};
+		853E2F412D07316900BE7497 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 853E2F242D07316700BE7497 /* eBuddySwiftUIMVVMFirebaseApp */;
+			targetProxy = 853E2F402D07316900BE7497 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		853E2F472D07316900BE7497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		853E2F482D07316900BE7497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		853E2F4A2D07316900BE7497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"eBuddySwiftUIMVVMFirebaseApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SHJ2K4BRM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chandrawelim.eBuddySwiftUIMVVMFirebaseApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		853E2F4B2D07316900BE7497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"eBuddySwiftUIMVVMFirebaseApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SHJ2K4BRM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chandrawelim.eBuddySwiftUIMVVMFirebaseApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		853E2F4D2D07316900BE7497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SHJ2K4BRM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chandrawelim.eBuddySwiftUIMVVMFirebaseAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eBuddySwiftUIMVVMFirebaseApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/eBuddySwiftUIMVVMFirebaseApp";
+			};
+			name = Debug;
+		};
+		853E2F4E2D07316900BE7497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SHJ2K4BRM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chandrawelim.eBuddySwiftUIMVVMFirebaseAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eBuddySwiftUIMVVMFirebaseApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/eBuddySwiftUIMVVMFirebaseApp";
+			};
+			name = Release;
+		};
+		853E2F502D07316900BE7497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SHJ2K4BRM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chandrawelim.eBuddySwiftUIMVVMFirebaseAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eBuddySwiftUIMVVMFirebaseApp;
+			};
+			name = Debug;
+		};
+		853E2F512D07316900BE7497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SHJ2K4BRM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chandrawelim.eBuddySwiftUIMVVMFirebaseAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eBuddySwiftUIMVVMFirebaseApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		853E2F202D07316700BE7497 /* Build configuration list for PBXProject "eBuddySwiftUIMVVMFirebaseApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853E2F472D07316900BE7497 /* Debug */,
+				853E2F482D07316900BE7497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		853E2F492D07316900BE7497 /* Build configuration list for PBXNativeTarget "eBuddySwiftUIMVVMFirebaseApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853E2F4A2D07316900BE7497 /* Debug */,
+				853E2F4B2D07316900BE7497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		853E2F4C2D07316900BE7497 /* Build configuration list for PBXNativeTarget "eBuddySwiftUIMVVMFirebaseAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853E2F4D2D07316900BE7497 /* Debug */,
+				853E2F4E2D07316900BE7497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		853E2F4F2D07316900BE7497 /* Build configuration list for PBXNativeTarget "eBuddySwiftUIMVVMFirebaseAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853E2F502D07316900BE7497 /* Debug */,
+				853E2F512D07316900BE7497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 853E2F1D2D07316700BE7497 /* Project object */;
+}
