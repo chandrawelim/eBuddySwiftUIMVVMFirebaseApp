@@ -6,13 +6,18 @@
 //
 
 import FirebaseFirestore
+import FirebaseStorage
 
 protocol FirebaseServiceProtocol {
     func fetchUser(with documentID: String, completion: @escaping (Result<UserJSON, Error>) -> Void)
+    func uploadProfileImage(image: UIImage, userId: String, completion: @escaping (Result<URL, Error>) -> Void)
+    func fetchProfileImageURL(userId: String, completion: @escaping (Result<URL, Error>) -> Void)
 }
 
 final class FirebaseService: FirebaseServiceProtocol {
+    
     private let db = Firestore.firestore()
+    private let storage = Storage.storage()
     
     func fetchUser(with documentID: String, completion: @escaping (Result<UserJSON, Error>) -> Void) {
         db.collection("USERS").document(documentID).getDocument { snapshot, error in
@@ -27,6 +32,42 @@ final class FirebaseService: FirebaseServiceProtocol {
             }
             
             completion(.success(data))
+        }
+    }
+    
+    /// Uploads an image to Firebase Storage
+    func uploadProfileImage(image: UIImage, userId: String, completion: @escaping (Result<URL, Error>) -> Void) {
+        guard let imageData = image.jpegData(compressionQuality: 0.8) else {
+            completion(.failure(NSError(domain: "ImageError", code: -1, userInfo: [NSLocalizedDescriptionKey: "Invalid image data."])))
+            return
+        }
+        
+        let storageRef = storage.reference().child("profile_images/\(userId).jpg")
+        storageRef.putData(imageData, metadata: nil) { metadata, error in
+            if let error = error {
+                completion(.failure(error))
+                return
+            }
+            
+            storageRef.downloadURL { url, error in
+                if let error = error {
+                    completion(.failure(error))
+                } else if let url = url {
+                    completion(.success(url))
+                }
+            }
+        }
+    }
+    
+    /// Fetches the profile image URL
+    func fetchProfileImageURL(userId: String, completion: @escaping (Result<URL, Error>) -> Void) {
+        let storageRef = storage.reference().child("profile_images/\(userId).jpg")
+        storageRef.downloadURL { url, error in
+            if let error = error {
+                completion(.failure(error))
+            } else if let url = url {
+                completion(.success(url))
+            }
         }
     }
 }
