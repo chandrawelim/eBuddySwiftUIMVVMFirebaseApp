@@ -19,68 +19,93 @@ struct UserCardView: View {
         VStack {
             HStack {
                 Text(name)
+                    .foregroundStyle(.textPrimary)
                 
-                /// Green doots
+                Image("ic_green_dots")
                 
                 Spacer()
-                /// Verified
-                Image(systemName: "star.fill")
-                /// IG
-                Image(systemName: "star.fill")
+                
+                Image("ic_verified")
+                
+                Image("ic_instagram")
             }
+            .padding(.horizontal, 4)
             
             ZStack(alignment: .topTrailing) {
-                AsyncImage(url: URL(string: imageURL)) { image in
-                    image
-                        .resizable()
-                        .scaledToFill()
-                } placeholder: {
-                    Color.gray.opacity(0.3)
-                }
-                .frame(height: 200)
-                .clipShape(RoundedRectangle(cornerRadius: 20))
-                .overlay(RoundedRectangle(cornerRadius: 20).stroke(Color.white, lineWidth: 2))
+                Image("ic_people")
+                    .resizable()
+                    .scaledToFill()
+                    .frame(width: 158, height: 180)
+                    .clipShape(RoundedRectangle(cornerRadius: 16))
+                    .overlay(RoundedRectangle(cornerRadius: 16).stroke(Color.white, lineWidth: 1))
                 
                 if isAvailable {
                     HStack {
-                        Text("⚡ Available today!")
-                            .font(.subheadline.bold())
-                            .foregroundColor(.white)
-                            .padding(8)
-                            .background(Color("AvailabilityBackground"))
-                            .cornerRadius(15)
+                        Image("ic_pill")
+                            .padding(.leading, 8)
+                            .padding(.top, 12)
                         Spacer()
                     }
                 }
             }
             
-            HStack {
-                Circle()
-                    .frame(width: 20, height: 20)
-                Circle()
-                    .frame(width: 20, height: 20)
+            HStack(spacing: -8) {
+                Image("ic_cod")
+                    .resizable()
+                    .scaledToFill()
+                    .frame(width: 40, height: 40)
+                    .clipShape(Circle())
+                
+                ZStack {
+                    Image("ic_mobile_legend")
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 40, height: 40)
+                        .clipShape(Circle())
+                        .overlay(
+                            Circle()
+                                .stroke(Color.textSecondary, lineWidth: 1)
+                        )
+                    
+                    Circle()
+                        .fill(Color.textPrimary.opacity(0.3))
+                        .frame(width: 40, height: 40)
+                    
+                    Text("+3")
+                        .foregroundStyle(.textSecondary)
+                }
                 
                 Spacer()
                 
-                Circle()
-                    .frame(width: 20, height: 20)
+                Image("ic_voice")
             }
+            .padding(.top, -30)
+            .padding(.horizontal, 8)
             
-            HStack {
-                Text("⭐️")
+            HStack(spacing: 4) {
+                Image("ic_star")
                 Text(String(rating))
+                    .foregroundStyle(.textPrimary)
                 Text("(\(String(reviewsCount)))")
+                    .foregroundStyle(.tertitary)
                 Spacer()
             }
             
-            HStack {
-                Text("🔥")
-                Text(String(price))
-                Text("/1Hr")
+            HStack(spacing: 4) {
+                Image("ic_mana")
+                HStack(spacing: 0) {
+                    Text(String(price))
+                        .foregroundStyle(.textPrimary)
+                    Text("/1Hr")
+                        .foregroundStyle(.textPrimary)
+                }
                 Spacer()
             }
         }
-        .frame(width: 200, height: 300)
+        .frame(width: 158, height: 312)
+        .padding(.horizontal, 4)
+        .padding(.vertical, 8)
+        .background(.bgCardNetral)
     }
 }
 
