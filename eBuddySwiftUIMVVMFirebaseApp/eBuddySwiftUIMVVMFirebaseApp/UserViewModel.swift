@@ -67,3 +67,18 @@ class UserViewModel: ObservableObject {
         }
     }
 }
+
+extension UserViewModel {
+    func fetchFilteredUsers() {
+        firebaseService.fetchUsersWithFilters { [weak self] result in
+            DispatchQueue.main.async {
+                switch result {
+                case .success(let users):
+                    print("Fetched Users: \(users)")
+                case .failure(let error):
+                    self?.errorMessage = error.localizedDescription
+                }
+            }
+        }
+    }
+}

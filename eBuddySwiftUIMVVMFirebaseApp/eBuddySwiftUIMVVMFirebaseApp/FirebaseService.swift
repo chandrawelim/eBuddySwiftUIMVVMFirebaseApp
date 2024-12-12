@@ -12,6 +12,7 @@ protocol FirebaseServiceProtocol {
     func fetchUser(with documentID: String, completion: @escaping (Result<UserJSON, Error>) -> Void)
     func uploadProfileImage(image: UIImage, userId: String, completion: @escaping (Result<URL, Error>) -> Void)
     func fetchProfileImageURL(userId: String, completion: @escaping (Result<URL, Error>) -> Void)
+    func fetchUsersWithFilters(completion: @escaping (Result<[UserJSON], Error>) -> Void)
 }
 
 final class FirebaseService: FirebaseServiceProtocol {
@@ -69,5 +70,29 @@ final class FirebaseService: FirebaseServiceProtocol {
                 completion(.success(url))
             }
         }
+    }
+}
+
+extension FirebaseService {
+    func fetchUsersWithFilters(completion: @escaping (Result<[UserJSON], Error>) -> Void) {
+        db.collection("USERS")
+            .whereField("gender", isEqualTo: GenderEnum.female.rawValue)
+            .order(by: "recentlyActive", descending: true)
+            .order(by: "rating", descending: true)
+            .order(by: "servicePricing", descending: false)
+            .getDocuments { snapshot, error in
+                if let error = error {
+                    completion(.failure(error))
+                    return
+                }
+                
+                guard let documents = snapshot?.documents else {
+                    completion(.failure(NSError(domain: "DataError", code: -1, userInfo: nil)))
+                    return
+                }
+                
+                let users = documents.compactMap { try? $0.data(as: UserJSON.self) }
+                completion(.success(users))
+            }
     }
 }
